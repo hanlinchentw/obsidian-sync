@@ -27,6 +27,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
+        with: 
+          node-version: '18'
 
       - name: Install example
         run: npm install
@@ -40,4 +42,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./_sites
