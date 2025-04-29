@@ -37,9 +37,7 @@ jobs:
         run: npm run compile
         working-directory: ./
 
-      - name: Deploy to the gh-pages branch
-        if: github.ref == 'refs/heads/master'
+      - name: Deploy to the gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_sites
