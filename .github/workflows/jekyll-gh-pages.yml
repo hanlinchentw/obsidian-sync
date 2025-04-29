@@ -34,7 +34,7 @@ jobs:
         run: npm install
         working-directory: ./
       - name: Build example
-        run: npm compile
+        run: npm run compile
         working-directory: ./
 
       - name: Deploy to the gh-pages branch
