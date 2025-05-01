@@ -11,10 +11,14 @@
             "id": "0c7b81b9dcde0adf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/System design.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "System design"
             }
           }
         ]
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Dev note/System design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for System design"
             }
           },
           {
@@ -109,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Dev note/System design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from System design"
             }
           },
           {
@@ -138,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Dev note/System design.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of System design"
             }
           }
         ]
@@ -161,17 +165,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee0f63440b0fc0f7",
+  "active": "0c7b81b9dcde0adf",
   "lastOpenFiles": [
-    "Dev/ note.md",
+    "Dev note/iOS/Mock in Unit test.md",
+    "Dev note/iOS/How to analyze ips crash report.md",
+    "Dev note/iOS/Allow implicit self for weak self captures, after self is unwrapped.md",
+    "Dev note/System design.md",
     "README.md",
-    "Dev",
-    "Dev note.md",
-    "Living/Daily/2025-04-24.md",
-    "Dev note/iOS/Optimize launch time/XCTrace track iOS launch time.md",
-    "Dev note/iOS/How to analyze ips crash report.md"
+    "Leetcode/USA-first/D6/TEMPLATE 1c96870d0f2b81119378dfa50df29313.md",
+    "Leetcode/USA-first/D13/TEMPLATE.md",
+    "Leetcode/USA-first/D13/637 Average of Levels in Binary Tree.md",
+    "Leetcode/USA-first/D13/515 Find Largest Value in Each Tree Row.md",
+    "Leetcode/USA-first/D13/429 N-ary Tree Level Order Traversal.md",
+    "Leetcode/USA-first/D13/226 Invert Binary Tree.md",
+    "Leetcode/USA-first/D13/199 Binary Tree Right Side View.md",
+    "Leetcode/USA-first/D13/111 Minimum Depth of Binary Tree.md",
+    "Leetcode/USA-first/D13/107 Binary Tree Level Order Traversal II.md",
+    "Leetcode/USA-first/D13/104 Maximum Depth of Binary Tree.md",
+    "Leetcode/USA-first/D13/102 Binary Tree Level Order Traversal.md",
+    "Leetcode/USA-first/D12/347 Top K Frequent Elements.md",
+    "Leetcode/USA-first/D12/239 Sliding Window Maximum.md",
+    "Leetcode/USA-first/D12/225 Implement Stack using Queues.md",
+    "Leetcode/USA-first/D12/145 Binary Tree Postorder Traversal.md",
+    "Leetcode/USA-first/D12/144 Binary Tree Preorder Traversal.md",
+    "Leetcode/USA-first/D12/94 Binary Tree Inorder Traversal.md",
+    "Leetcode/USA-first/D11/TEMPLATE.md",
+    "Leetcode/USA-first/D11/1047 Remove All Adjacent Duplicates In String.md",
+    "Leetcode/USA-first/D11/459 Repeated Substring Pattern.md",
+    "Leetcode/USA-first/D11/239 Sliding Window Maximum.md",
+    "Leetcode/USA-first/D3 (3.29)/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png",
+    "Leetcode/USA-first/D27 (5.1)",
+    "Leetcode/USA-first",
+    "Leetcode/USA-first/D17",
+    "Leetcode/USA-first/D16",
+    "Leetcode/USA-first/D15",
+    "Leetcode/USA-first/D14",
+    "Leetcode/USA-first/D13",
+    "Leetcode/USA-first/D12",
+    "Leetcode/USA-first/D11",
+    "Leetcode/USA-first/D10",
+    "Leetcode/USA-first/D4/733 Flood Fill 1c66870d0f2b8054a695e2190f84d05e/Screenshot_2025-03-30_at_9.37.51_PM.png",
+    "Leetcode/USA-first/D3 (3.29)/Invert Binary Tree 1c56870d0f2b80658a35f727d82aca07/Screenshot_2025-03-29_at_6.28.46_PM.png",
+    "Leetcode/USA-first/D3 (3.29)/704 Binary Search 1c56870d0f2b803dbe38e83ca988c4c3/Screenshot_2025-03-29_at_6.40.29_PM.png",
+    "Leetcode/USA-first/D3 (3.29)/121 Best Time to Buy and Sell Stock 1c56870d0f2b80afbbddf0f4612b5c3c/Screenshot_2025-03-29_at_5.52.50_PM.png",
+    "Leetcode/USA-first/D3 (3.29)/125 Valid Palindrome 1c56870d0f2b80c8afd6f7cdf8db2ae2/Screenshot_2025-03-29_at_6.18.50_PM.png",
+    "Leetcode/DAY 4 1c66870d0f2b805cbff7d4c518690a13/733 Flood Fill 1c66870d0f2b8054a695e2190f84d05e/Screenshot_2025-03-30_at_9.37.51_PM.png",
+    "Leetcode/DAY 3 (3 29) 1c56870d0f2b801c8ce8d7559b133ef8/Invert Binary Tree 1c56870d0f2b80658a35f727d82aca07/Screenshot_2025-03-29_at_6.28.46_PM.png",
+    "Leetcode/DAY 3 (3 29) 1c56870d0f2b801c8ce8d7559b133ef8/704 Binary Search 1c56870d0f2b803dbe38e83ca988c4c3/Screenshot_2025-03-29_at_6.40.29_PM.png",
+    "Leetcode/DAY 3 (3 29) 1c56870d0f2b801c8ce8d7559b133ef8/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png"
   ]
 }

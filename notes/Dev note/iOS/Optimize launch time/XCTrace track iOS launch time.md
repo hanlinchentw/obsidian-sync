@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 #ios #optimization 
 
 ### Launch time
