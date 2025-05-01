@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/162. Find Peak Element.md",
+                "file": "Leetcode/USA-first/278. First Bad Version.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "162. Find Peak Element"
+              "title": "278. First Bad Version"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/USA-first/162. Find Peak Element.md",
+                "file": "Leetcode/USA-first/278. First Bad Version.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 162. Find Peak Element"
+              "title": "Backlinks for 278. First Bad Version"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/USA-first/162. Find Peak Element.md",
+                "file": "Leetcode/USA-first/278. First Bad Version.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 162. Find Peak Element"
+              "title": "Outgoing links from 278. First Bad Version"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/USA-first/162. Find Peak Element.md",
+                "file": "Leetcode/USA-first/278. First Bad Version.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 162. Find Peak Element"
+              "title": "Outline of 278. First Bad Version"
             }
           }
         ]
@@ -172,10 +172,11 @@
   },
   "active": "0c7b81b9dcde0adf",
   "lastOpenFiles": [
+    "Leetcode/USA-first/TEMPLATE.md",
+    "Leetcode/USA-first/278. First Bad Version.md",
+    "Leetcode/USA-first/162. Find Peak Element.md",
     "Leetcode/Activity.md",
     "Leetcode/USA-first/295. Find Median from Data Stream.md",
-    "Leetcode/USA-first/TEMPLATE.md",
-    "Leetcode/USA-first/162. Find Peak Element.md",
     "Leetcode/USA-first/1095. Find in Mountain Array.md",
     "Leetcode/USA-first/852. Peak Index in a Mountain Array.md",
     "Leetcode/USA-first/33. Search in Rotated Sorted Array.md",
@@ -198,7 +199,6 @@
     "Leetcode/USA-first/D13/226 Invert Binary Tree.md",
     "Leetcode/USA-first/D13/199 Binary Tree Right Side View.md",
     "Leetcode/USA-first/D13/111 Minimum Depth of Binary Tree.md",
-    "Leetcode/USA-first/D13/107 Binary Tree Level Order Traversal II.md",
     "Leetcode/USA-first/D3 (3.29)/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png",
     "Leetcode/USA-first/D27 (5.1)",
     "Leetcode/USA-first",
