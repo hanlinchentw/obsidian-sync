@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/378. Kth Smallest Element in a Sorted Matrix.md",
+                "file": "Leetcode/USA-first/295. Find Median from Data Stream.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "378. Kth Smallest Element in a Sorted Matrix"
+              "title": "295. Find Median from Data Stream"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/USA-first/378. Kth Smallest Element in a Sorted Matrix.md",
+                "file": "Leetcode/USA-first/295. Find Median from Data Stream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 378. Kth Smallest Element in a Sorted Matrix"
+              "title": "Backlinks for 295. Find Median from Data Stream"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/USA-first/378. Kth Smallest Element in a Sorted Matrix.md",
+                "file": "Leetcode/USA-first/295. Find Median from Data Stream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 378. Kth Smallest Element in a Sorted Matrix"
+              "title": "Outgoing links from 295. Find Median from Data Stream"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/USA-first/378. Kth Smallest Element in a Sorted Matrix.md",
+                "file": "Leetcode/USA-first/295. Find Median from Data Stream.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 378. Kth Smallest Element in a Sorted Matrix"
+              "title": "Outline of 295. Find Median from Data Stream"
             }
           }
         ]
@@ -172,11 +172,11 @@
   },
   "active": "0c7b81b9dcde0adf",
   "lastOpenFiles": [
-    "Leetcode/USA-first/295..md",
+    "Leetcode/USA-first/378. Kth Smallest Element in a Sorted Matrix.md",
+    "Leetcode/USA-first/295. Find Median from Data Stream.md",
     "Leetcode/USA-first/TEMPLATE.md",
     "Leetcode/USA-first/Untitled.md",
     "Leetcode/Activity.md",
-    "Leetcode/USA-first/378. Kth Smallest Element in a Sorted Matrix.md",
     "Leetcode/TEMPLATE.md",
     "Dev note/iOS/Mock in Unit test.md",
     "Dev note/System design.md",
