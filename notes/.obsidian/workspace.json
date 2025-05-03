@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
+                "file": "Leetcode/USA-first/3. Longest Substring Without Repeating Characters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "395. Longest Substring with At Least K Repeating Characters"
+              "title": "3. Longest Substring Without Repeating Characters"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
+                "file": "Leetcode/USA-first/3. Longest Substring Without Repeating Characters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 395. Longest Substring with At Least K Repeating Characters"
+              "title": "Backlinks for 3. Longest Substring Without Repeating Characters"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
+                "file": "Leetcode/USA-first/3. Longest Substring Without Repeating Characters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 395. Longest Substring with At Least K Repeating Characters"
+              "title": "Outgoing links from 3. Longest Substring Without Repeating Characters"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
+                "file": "Leetcode/USA-first/3. Longest Substring Without Repeating Characters.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 395. Longest Substring with At Least K Repeating Characters"
+              "title": "Outline of 3. Longest Substring Without Repeating Characters"
             }
           }
         ]
@@ -173,6 +173,7 @@
   "active": "0c7b81b9dcde0adf",
   "lastOpenFiles": [
     "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
+    "Leetcode/USA-first/3. Longest Substring Without Repeating Characters.md",
     "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
     "Leetcode/Activity.md",
     "Leetcode/USA-first/26. Remove Duplicates from Sorted Array.md",
@@ -197,7 +198,6 @@
     "Leetcode/USA-first/162. Find Peak Element.md",
     "Leetcode/USA-first/295. Find Median from Data Stream.md",
     "Leetcode/USA-first/1095. Find in Mountain Array.md",
-    "Leetcode/USA-first/852. Peak Index in a Mountain Array.md",
     "Untitled.canvas",
     "Leetcode/USA-first/D3 (3.29)/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png",
     "Leetcode/USA-first/D27 (5.1)",
