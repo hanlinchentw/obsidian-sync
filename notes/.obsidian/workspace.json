@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
+                "file": "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "424. Longest Repeating Character Replacement"
+              "title": "395. Longest Substring with At Least K Repeating Characters"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
+                "file": "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 424. Longest Repeating Character Replacement"
+              "title": "Backlinks for 395. Longest Substring with At Least K Repeating Characters"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
+                "file": "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 424. Longest Repeating Character Replacement"
+              "title": "Outgoing links from 395. Longest Substring with At Least K Repeating Characters"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
+                "file": "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 424. Longest Repeating Character Replacement"
+              "title": "Outline of 395. Longest Substring with At Least K Repeating Characters"
             }
           }
         ]
@@ -172,8 +172,8 @@
   },
   "active": "0c7b81b9dcde0adf",
   "lastOpenFiles": [
-    "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
     "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
+    "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
     "Leetcode/Activity.md",
     "Leetcode/USA-first/26. Remove Duplicates from Sorted Array.md",
     "Leetcode/USA-first/283. Move Zeroes.md",
