@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/454. 4Sum II.md",
+                "file": "Leetcode/USA-first/283. Move Zeroes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "454. 4Sum II"
+              "title": "283. Move Zeroes"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/USA-first/454. 4Sum II.md",
+                "file": "Leetcode/USA-first/283. Move Zeroes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 454. 4Sum II"
+              "title": "Backlinks for 283. Move Zeroes"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/USA-first/454. 4Sum II.md",
+                "file": "Leetcode/USA-first/283. Move Zeroes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 454. 4Sum II"
+              "title": "Outgoing links from 283. Move Zeroes"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/USA-first/454. 4Sum II.md",
+                "file": "Leetcode/USA-first/283. Move Zeroes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 454. 4Sum II"
+              "title": "Outline of 283. Move Zeroes"
             }
           }
         ]
@@ -172,8 +172,10 @@
   },
   "active": "0c7b81b9dcde0adf",
   "lastOpenFiles": [
-    "Leetcode/USA-first/18. 4Sum.md",
+    "Leetcode/USA-first/11. Container With Most Water.md",
+    "Leetcode/USA-first/283. Move Zeroes.md",
     "Leetcode/USA-first/454. 4Sum II.md",
+    "Leetcode/USA-first/18. 4Sum.md",
     "Leetcode/USA-first/16. 3Sum Closest.md",
     "Leetcode/USA-first/15. 3Sum.md",
     "Leetcode/USA-first/167. Two Sum II - Input Array Is Sorted.md",
@@ -196,8 +198,6 @@
     "Leetcode/USA-first/33. Search in Rotated Sorted Array.md",
     "Leetcode/USA-first/34. Find First and Last Position of Element in Sorted Array.md",
     "Leetcode/USA-first/378. Kth Smallest Element in a Sorted Matrix.md",
-    "Untitled.md",
-    "2025-05-01.md",
     "Untitled.canvas",
     "Leetcode/USA-first/D3 (3.29)/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png",
     "Leetcode/USA-first/D27 (5.1)",
