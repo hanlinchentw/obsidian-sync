@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/424. Longest Repeating Character ReplacementMediumTopics.md",
+                "file": "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "424. Longest Repeating Character ReplacementMediumTopics"
+              "title": "424. Longest Repeating Character Replacement"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/USA-first/424. Longest Repeating Character ReplacementMediumTopics.md",
+                "file": "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 424. Longest Repeating Character ReplacementMediumTopics"
+              "title": "Backlinks for 424. Longest Repeating Character Replacement"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/USA-first/424. Longest Repeating Character ReplacementMediumTopics.md",
+                "file": "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 424. Longest Repeating Character ReplacementMediumTopics"
+              "title": "Outgoing links from 424. Longest Repeating Character Replacement"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/USA-first/424. Longest Repeating Character ReplacementMediumTopics.md",
+                "file": "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 424. Longest Repeating Character ReplacementMediumTopics"
+              "title": "Outline of 424. Longest Repeating Character Replacement"
             }
           }
         ]
@@ -173,7 +173,7 @@
   "active": "0c7b81b9dcde0adf",
   "lastOpenFiles": [
     "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
-    "Leetcode/USA-first/424. Longest Repeating Character ReplacementMediumTopics.md",
+    "Leetcode/USA-first/424. Longest Repeating Character Replacement.md",
     "Leetcode/Activity.md",
     "Leetcode/USA-first/26. Remove Duplicates from Sorted Array.md",
     "Leetcode/USA-first/283. Move Zeroes.md",
