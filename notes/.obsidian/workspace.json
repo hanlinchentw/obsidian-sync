@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/200. Number of Islands.md",
+                "file": "Leetcode/USA-first/133. Clone Graph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "200. Number of Islands"
+              "title": "133. Clone Graph"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode/USA-first/200. Number of Islands.md",
+                "file": "Leetcode/USA-first/133. Clone Graph.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 200. Number of Islands"
+              "title": "Backlinks for 133. Clone Graph"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Leetcode/USA-first/200. Number of Islands.md",
+                "file": "Leetcode/USA-first/133. Clone Graph.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 200. Number of Islands"
+              "title": "Outgoing links from 133. Clone Graph"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Leetcode/USA-first/200. Number of Islands.md",
+                "file": "Leetcode/USA-first/133. Clone Graph.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 200. Number of Islands"
+              "title": "Outline of 133. Clone Graph"
             }
           }
         ]
@@ -172,9 +172,10 @@
   },
   "active": "0c7b81b9dcde0adf",
   "lastOpenFiles": [
+    "Leetcode/USA-first/200. Number of Islands.md",
+    "Leetcode/USA-first/133. Clone Graph.md",
     "Leetcode/Activity.md",
     "README.md",
-    "Leetcode/USA-first/200. Number of Islands.md",
     "Leetcode/USA-first/103. Binary Tree Zigzag Level Order Traversal.md",
     "Leetcode/USA-first/102. Binary Tree Level Order Traversal.md",
     "Leetcode/USA-first/395. Longest Substring with At Least K Repeating Characters.md",
@@ -197,7 +198,6 @@
     "Leetcode/USA-first/69. Sqrt(x).md",
     "Leetcode/USA-first/TEMPLATE.md",
     "Leetcode/USA-first/240. Search a 2D Matrix II.md",
-    "Leetcode/USA-first/74. Search a 2D Matrix.md",
     "Untitled.canvas",
     "Leetcode/USA-first/D3 (3.29)/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png",
     "Leetcode/USA-first/D27 (5.1)",
