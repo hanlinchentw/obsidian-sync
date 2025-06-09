@@ -11,10 +11,14 @@
             "id": "16b479674fd81b5e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Leetcode/USA-first/93. Restore IP Addresses.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "93. Restore IP Addresses"
             }
           }
         ]
@@ -168,10 +172,11 @@
   },
   "active": "16b479674fd81b5e",
   "lastOpenFiles": [
+    "Leetcode/Activity.md",
+    "Leetcode/USA-first/93. Restore IP Addresses.md",
     "Resume.md",
     "Leetcode/USA-first/51. N-Queens.md",
     "Resume.html",
-    "Leetcode/Activity.md",
     "Leetcode/USA-first/394. Decode String.md",
     "Leetcode/USA-first/341. Flatten Nested List Iterator.md",
     "Leetcode/TEMPLATE.md",
