@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "11d930291e334011",
+        "id": "37a0c1915c13c30f",
         "type": "tabs",
         "children": [
           {
-            "id": "16b479674fd81b5e",
+            "id": "cbfc27b7386c21e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Leetcode/USA-first/301. Remove Invalid Parentheses.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "301. Remove Invalid Parentheses"
+              "title": "New tab"
             }
           }
         ]
@@ -170,10 +166,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16b479674fd81b5e",
+  "active": "cbfc27b7386c21e9",
   "lastOpenFiles": [
-    "Leetcode/Activity.md",
     "Leetcode/USA-first/301. Remove Invalid Parentheses.md",
+    "Leetcode/Activity.md",
     "Leetcode/USA-first/22. Generate Parentheses.md",
     "Leetcode/USA-first/93. Restore IP Addresses.md",
     "Resume.md",
