@@ -1,1 +1,5 @@
-{}
+{
+  "textFontFamily": "Fira Code",
+  "baseFontSize": 13,
+  "monospaceFontFamily": "Fira Code"
+}
