@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/131. Palindrome Partitioning.md",
+                "file": "Dev note/OS/GCC Cross-Compiler.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "131. Palindrome Partitioning"
+              "title": "GCC Cross-Compiler"
             }
           }
         ]
@@ -172,11 +172,13 @@
   },
   "active": "cbfc27b7386c21e9",
   "lastOpenFiles": [
+    "Leetcode/USA-first/131. Palindrome Partitioning.md",
+    "Dev note/OS/GCC Cross-Compiler.md",
+    "Dev note/OS",
     "Daily/2025-06-17.md",
     "Daily/2025-06-16.md",
     "Daily",
     "Leetcode/USA-first/1376. Time Needed to Inform All Employees.md",
-    "Leetcode/USA-first/131. Palindrome Partitioning.md",
     "Leetcode/USA-first/399. Evaluate Division.md",
     "Leetcode/USA-first/TEMPLATE.md",
     "Leetcode/Activity.md",
@@ -203,14 +205,12 @@
     "Leetcode/TEMPLATE.md",
     "Leetcode/USA-first/108. Convert Sorted Array to Binary Search Tree.md",
     "Leetcode/USA-first/700. Search in a Binary Search Tree.md",
-    "Leetcode/USA-first/669. Trim a Binary Search Tree.md",
     "Untitled.canvas",
     "Leetcode/USA-first/D3 (3.29)/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png",
     "Leetcode/USA-first/D27 (5.1)",
     "Leetcode/USA-first",
     "Leetcode/USA-first/D17",
     "Leetcode/USA-first/D16",
-    "Leetcode/USA-first/D15",
     "Leetcode/USA-first/D4/733 Flood Fill 1c66870d0f2b8054a695e2190f84d05e/Screenshot_2025-03-30_at_9.37.51_PM.png",
     "Leetcode/USA-first/D3 (3.29)/Invert Binary Tree 1c56870d0f2b80658a35f727d82aca07/Screenshot_2025-03-29_at_6.28.46_PM.png",
     "Leetcode/USA-first/D3 (3.29)/704 Binary Search 1c56870d0f2b803dbe38e83ca988c4c3/Screenshot_2025-03-29_at_6.40.29_PM.png",
