@@ -187,8 +187,8 @@
   "active": "8c396975b116ee6d",
   "lastOpenFiles": [
     "Dev note/OS/os-tutorial/01-bootsector-barebones.md",
-    "Dev note/OS/os-tutorial/Assets/01-boot.png",
     "Dev note/OS/os-tutorial/02-bootsector-print.md",
+    "Dev note/OS/os-tutorial/Assets/01-boot.png",
     "Dev note/OS/os-tutorial/Assets",
     "Dev note/OS/os-tutorial/README.md",
     "Dev note/OS/GCC Cross-Compiler.md",
