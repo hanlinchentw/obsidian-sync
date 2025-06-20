@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev note/OS/os-tutorial/02-bootsector-print.md",
+                "file": "Dev note/OS/os-tutorial/03-bootsector-memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-bootsector-print"
+              "title": "03-bootsector-memory"
             }
           }
         ],
@@ -186,8 +186,10 @@
   },
   "active": "8c396975b116ee6d",
   "lastOpenFiles": [
-    "Dev note/OS/os-tutorial/01-bootsector-barebones.md",
     "Dev note/OS/os-tutorial/02-bootsector-print.md",
+    "Dev note/OS/os-tutorial/03-bootsector-memory.md",
+    "Dev note/OS/os-tutorial/Assets/截圖 2025-06-20 下午6.07.19.png",
+    "Dev note/OS/os-tutorial/01-bootsector-barebones.md",
     "Dev note/OS/os-tutorial/Assets/01-boot.png",
     "Dev note/OS/os-tutorial/Assets",
     "Dev note/OS/os-tutorial/README.md",
@@ -230,7 +232,6 @@
     "Leetcode/USA-first/D3 (3.29)/704 Binary Search 1c56870d0f2b803dbe38e83ca988c4c3/Screenshot_2025-03-29_at_6.40.29_PM.png",
     "Leetcode/USA-first/D3 (3.29)/121 Best Time to Buy and Sell Stock 1c56870d0f2b80afbbddf0f4612b5c3c/Screenshot_2025-03-29_at_5.52.50_PM.png",
     "Leetcode/USA-first/D3 (3.29)/125 Valid Palindrome 1c56870d0f2b80c8afd6f7cdf8db2ae2/Screenshot_2025-03-29_at_6.18.50_PM.png",
-    "Leetcode/DAY 4 1c66870d0f2b805cbff7d4c518690a13/733 Flood Fill 1c66870d0f2b8054a695e2190f84d05e/Screenshot_2025-03-30_at_9.37.51_PM.png",
-    "Leetcode/DAY 3 (3 29) 1c56870d0f2b801c8ce8d7559b133ef8/Invert Binary Tree 1c56870d0f2b80658a35f727d82aca07/Screenshot_2025-03-29_at_6.28.46_PM.png"
+    "Leetcode/DAY 4 1c66870d0f2b805cbff7d4c518690a13/733 Flood Fill 1c66870d0f2b8054a695e2190f84d05e/Screenshot_2025-03-30_at_9.37.51_PM.png"
   ]
 }
