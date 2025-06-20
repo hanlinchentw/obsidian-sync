@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev note/iOS/Test Automation/Exploring Test automation in iOS development.md",
+                "file": "Dev note/OS/os-tutorial/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exploring Test automation in iOS development"
+              "title": "README"
             }
           }
         ]
@@ -171,8 +171,12 @@
   },
   "active": "4a7006d61a715a1f",
   "lastOpenFiles": [
-    "Leetcode/USA-first/17. Letter Combinations of a Phone Number.md",
     "Dev note/OS/GCC Cross-Compiler.md",
+    "Dev note/OS/os-tutorial/README.md",
+    "Dev note/OS/os-tutorial",
+    "Dev note/OS/Untitled.md",
+    "Dev note/iOS/Test Automation/Exploring Test automation in iOS development.md",
+    "Leetcode/USA-first/17. Letter Combinations of a Phone Number.md",
     "Dev note/OS",
     "Daily/2025-06-17.md",
     "Daily/2025-06-16.md",
@@ -183,7 +187,6 @@
     "Dev note/iOS/Allow implicit self for weak self captures, after self is unwrapped.md",
     "Dev note/iOS/How to analyze ips crash report.md",
     "Dev note/iOS/Mock in Unit test.md",
-    "Dev note/iOS/Test Automation/Exploring Test automation in iOS development.md",
     "Daily",
     "Leetcode/USA-first/399. Evaluate Division.md",
     "Leetcode/USA-first/1376. Time Needed to Inform All Employees.md",
@@ -202,14 +205,11 @@
     "Leetcode/USA-first/212. Word Search II.md",
     "Leetcode/USA-first/37. Sudoku Solver.md",
     "Leetcode/USA-first/301. Remove Invalid Parentheses.md",
-    "Leetcode/Activity.md",
-    "Leetcode/USA-first/22. Generate Parentheses.md",
     "Resume.html",
     "Leetcode/USA-first/D3 (3.29)/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png",
     "Leetcode/USA-first/D27 (5.1)",
     "Leetcode/USA-first",
     "Leetcode/USA-first/D17",
-    "Leetcode/USA-first/D16",
     "Leetcode/USA-first/D4/733 Flood Fill 1c66870d0f2b8054a695e2190f84d05e/Screenshot_2025-03-30_at_9.37.51_PM.png",
     "Leetcode/USA-first/D3 (3.29)/Invert Binary Tree 1c56870d0f2b80658a35f727d82aca07/Screenshot_2025-03-29_at_6.28.46_PM.png",
     "Leetcode/USA-first/D3 (3.29)/704 Binary Search 1c56870d0f2b803dbe38e83ca988c4c3/Screenshot_2025-03-29_at_6.40.29_PM.png",
