@@ -90,10 +90,10 @@ qemu-system-x86_64 --version
 
 ### Boot Process
 
-- BIOS loads first 512 bytes from bootable device
+- BIOS loads first **512** bytes from bootable device
+	- The bootloader is limited to 512 bytes and acts as a standard between the BIOS and the OS.
 - Magic number `0xAA55` required at end of boot sector
 - Real mode vs protected mode differences
-
 ### Assembly Programming
 
 - x86 register usage and calling conventions
