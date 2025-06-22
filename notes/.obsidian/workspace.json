@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cbfc27b7386c21e9",
+            "id": "577aae5252a4276d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev note/OS/os-tutorial/03-bootsector-memory.md",
+                "file": "07-bootsector-disk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-bootsector-memory"
-            }
-          },
-          {
-            "id": "da9ce75b7f7c2c5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev note/OS/os-tutorial/04-bootsector-stack.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "04-bootsector-stack"
-            }
-          },
-          {
-            "id": "7f76d20c8074cb92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05-bootsector-functions-strings.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "05-bootsector-functions-strings"
+              "title": "07-bootsector-disk"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -199,10 +171,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f76d20c8074cb92",
+  "active": "577aae5252a4276d",
   "lastOpenFiles": [
+    "Dev note/OS/os-tutorial/06-bootsector-segmentation.md",
+    "Dev note/OS/os-tutorial/05-bootsector-functions-strings.md",
+    "Dev note/OS/os-tutorial/03-bootsector-memory.md",
     "Dev note/OS/os-tutorial/04-bootsector-stack.md",
-    "05-bootsector-functions-strings.md",
+    "07-bootsector-disk.md",
     "Leetcode/USA-first/698. Partition to K Equal Sum Subsets.md",
     "Leetcode/USA-first/77. Combinations.md",
     "Leetcode/USA-first/46. Permutations.md",
@@ -211,7 +186,6 @@
     "Leetcode/USA-first/39. Combination Sum.md",
     "Leetcode/USA-first/17. Letter Combinations of a Phone Number.md",
     "Dev note/OS/os-tutorial/README.md",
-    "Dev note/OS/os-tutorial/03-bootsector-memory.md",
     "Dev note/OS/os-tutorial/02-bootsector-print.md",
     "Dev note/OS/os-tutorial/Assets/Pasted image 20250620184206.png",
     "Dev note/OS/os-tutorial/Assets/01-boot.png",
@@ -233,8 +207,6 @@
     "Leetcode/USA-first/212. Word Search II.md",
     "Dev note/iOS/Test Automation/Getting Started with XCUITest.md",
     "Dev note/iOS/Test Automation/Exploring Test automation in iOS development.md",
-    "Dev note/iOS/Test Automation/Advanced Techniques – Swizzling & Local Stubbing.md",
-    "Dev note/iOS/Test Automation/A Faster Alternative - Isolated View Testing.md",
     "Dev note/iOS/Test Automation",
     "Dev note/iOS/SwiftUI/Assets/截圖 2025-06-12 下午6.16.39.png",
     "Dev note/iOS/SwiftUI/Assets",
