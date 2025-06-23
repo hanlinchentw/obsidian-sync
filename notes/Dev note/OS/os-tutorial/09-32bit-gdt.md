@@ -55,3 +55,51 @@ gdt_descriptor:
 CODE_SEG equ gdt_code - gdt_start
 DATA_SEG equ gdt_data - gdt_start
 ```
+
+Code Segment（程式區段定義）
+```
+gdt_code: 
+    dw 0xffff        ; 區段大小的低 16 位元（0xFFFF）
+    dw 0x0           ; 區段基底位址的低 16 位元
+    db 0x0           ; 區段基底位址的第 16~23 位元
+    db 10011010b     ; 權限與型態（這是「可執行、可讀、已存在」的程式區段）
+    db 11001111b     ; 區段大小高 4 位 + 旗標（例如 granularity 設為 4KB 單位）
+    db 0x0           ; 區段基底位址的第 24~31 位元
+```
+- 這段設定了一個 **基底為 0x00000000、大小為 0xFFFFF（1MB）** 的程式段
+- `10011010b`：代表這是 **code segment**、在 **ring 0（核心權限）**、是 **可執行並可讀取** 的
+- `11001111b`：代表 segment 用 4KB 為單位（實際大小是 0xFFFFF * 4KB）
+
+Data Segment（資料區段定義）
+```
+gdt_data:
+    dw 0xffff
+    dw 0x0
+    db 0x0
+    db 10010010b     ; 權限與型態（這是「可讀寫」的資料區段）
+    db 11001111b
+    db 0x0
+```
+- 跟 code segment 幾乎一樣，但這個是 **資料用的**
+- `10010010b` 表示這是 **data segment**、在 **ring 0**、**可讀寫**，但不能執行
+
+GDT Descriptor（告訴 CPU GDT 的大小與位址）
+```
+gdt_descriptor:
+    dw gdt_end - gdt_start - 1 ; GDT 的長度（單位是位元組），要 -1 是因為 Intel 要求
+    dd gdt_start               ; GDT 在記憶體中的起始位址
+```
+`lgdt` 指令會用這個結構來載入 GDT
+
+定義 segment selector（讓你之後可以方便使用）
+```
+CODE_SEG equ gdt_code - gdt_start
+DATA_SEG equ gdt_data - gdt_start
+```
+
+這會讓你之後可以這樣寫：
+```
+jmp CODE_SEG:label
+mov ds, DATA_SEG
+```
+其中這兩個值是 GDT 中每個 segment 的 offset（通常是 0x08 和 0x10）
