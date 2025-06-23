@@ -1,0 +1,3 @@
+### GDT - Global Descriptor Table
+
+The **Global Descriptor Table** (**GDT**) is a binary data structure specific to the [IA-32](https://wiki.osdev.org/IA32_Architecture_Family "IA32 Architecture Family") and [x86-64](https://wiki.osdev.org/X86-64 "X86-64") architectures. It contains entries telling the CPU about memory [segments](https://wiki.osdev.org/Segmentation "Segmentation"). A similar [Interrupt Descriptor Table](https://wiki.osdev.org/Interrupt_Descriptor_Table "Interrupt Descriptor Table") exists containing [task](https://wiki.osdev.org/Task "Task") and [interrupt](https://wiki.osdev.org/Interrupts "Interrupts") descriptors.
