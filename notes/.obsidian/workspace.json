@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev note/OS/os-tutorial/09-32bit-gdt.md",
+                "file": "Dev note/OS/os-tutorial/10-32bit-enter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09-32bit-gdt"
+              "title": "10-32bit-enter"
             }
           },
           {
@@ -200,8 +200,9 @@
   },
   "active": "a7ac3b1af27019fd",
   "lastOpenFiles": [
-    "Dev note/OS/os-tutorial/08-32bit-print.md",
     "Dev note/OS/os-tutorial/09-32bit-gdt.md",
+    "Dev note/OS/os-tutorial/10-32bit-enter.md",
+    "Dev note/OS/os-tutorial/08-32bit-print.md",
     "Dev note/OS/os-tutorial/01-bootsector-barebones.md",
     "Dev note/OS/os-tutorial/03-bootsector-memory.md",
     "conflict-files-obsidian-git.md",
@@ -233,7 +234,6 @@
     "Dev note/iOS/Optimize launch time/XCTrace track iOS launch time.md",
     "Untitled.canvas",
     "Leetcode/USA-first/131. Palindrome Partitioning.md",
-    "Dev note/iOS/Allow implicit self for weak self captures, after self is unwrapped.md",
     "Daily",
     "Dev note/iOS/SwiftUI/Assets/截圖 2025-06-12 下午6.16.39.png",
     "Dev note/iOS/Test Automation",
