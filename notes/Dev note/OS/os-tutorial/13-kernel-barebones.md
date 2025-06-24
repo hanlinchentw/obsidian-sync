@@ -23,7 +23,7 @@ void main()
 
 dummy function that does **nothing**. That function will force us to create a kernel entry routine which does not point to byte 0x0 in our kernel, but to an actual label which we know that launches it. In our case, function `main()`.
 
-Let compile our kernal
+Let compile our kernel
 ```
 i686-elf-gcc -ffreestanding -c kernel.c -o kernel.o
 ```
