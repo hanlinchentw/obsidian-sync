@@ -36,14 +36,14 @@ void main()
 	position = position << 8; /* high byte */
 
 	port_byte_out(0x3d4, 15); /* requesting low byte */
-	position += port_byte_in(0x3d5);
+	position |= port_byte_in(0x3d5);
 
 	char *vga = (char *) 0xb8000;
 
 	/*Each **character cell** on screen is **2 bytes**:
     * 1 byte for the character (e.g., `'X'`)
     * 1 byte for the color attribute (e.g., `0x0F` = white on black) */
-	int offset_from_vga = position;
+	int offset_from_vga = position * 2;
 	vga[offset_from_vga] = 'X';
 	vga[offset_from_vga + 1] = 0x0f;
 }
@@ -60,4 +60,53 @@ void main()
 | 5.   | Combine to get full 16-bit position (`row * 80 + col`)            |
 | 6.   | Multiply by 2 to get byte offset                                  |
 | 7.   | Write to `0xB8000 + offset` to modify screen contents             |
- 
+
+🔧 **General Syntax of GCC Inline Assembly**
+```c
+__asm__ ("assembly code"
+         : output operands
+         : input operands
+         : clobbered registers);
+```
+
+### `port_byte_in`
+
+```
+unsigned char port_byte_in (unsigned short port) {
+    unsigned char result;
+    __asm__("in %%dx, %%al" : "=a" (result) : "d" (port));
+    return result;
+}
+```
+
+### Explanation:
+- **`in %%dx, %%al`** — x86 instruction: read a byte from the I/O port in `dx` into `al`.
+- **`"=a" (result)`** — output: assign value of `al` (lower byte of `eax`) to `result`.  
+    `=a` means “output in register `a` (EAX/AL)”.
+- **`"d" (port)`** — input: `port` value goes into `dx` (EDX).
+- `%%` is required to escape register names in GCC's AT&T syntax.
+
+Think of it like:
+```
+mov dx, port
+in  al, dx
+mov result, al
+```
+
+### `port_byte_out`
+
+```
+void port_byte_out (unsigned short port, unsigned char data) {
+    __asm__("out %%al, %%dx" : : "a" (data), "d" (port));
+}
+```
+
+- **No outputs**, so first colon is empty.
+- **`"a" (data)`** — put `data` in register `al` (part of `eax`).
+- **`"d" (port)`** — put `port` in `dx`.
+Like:
+```
+mov dx, port
+mov al, data
+out dx, al
+```
