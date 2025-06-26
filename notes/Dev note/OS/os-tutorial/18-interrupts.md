@@ -64,3 +64,17 @@ extern int counter;  // tells the compiler "it's declared elsewhere"
 Without `extern`, if you declare `int counter;` again in file2, you’d get a **duplicate symbol error** at link time.
 
 3. volatile
+
+「這個變數**隨時可能會被其他東西改變**，就算程式碼中看起來沒改變，也**不要做優化**。」
+
+`volatile int flag`
+
+**Why:** 
+Compiler 在優化程式時，會**假設變數不會改變**，除非它看到你自己寫了修改的程式碼。
+但在某些情況下（尤其是底層系統開發），像是：
+- 硬體暫存器（Hardware registers）
+- 中斷處理（Interrupts）
+- 多執行緒共享變數（Multithreaded shared flags）
+變數可能會在你**看不到的地方被改變**。
+
+`volatile` **不是用來保證執行緒安全的**，它只保證每次都從記憶體真正讀取或寫入，而不是用暫存變數。
