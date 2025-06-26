@@ -27,4 +27,13 @@ void kprint(char *message)
 
 
 Advanced features:
-print at 
+- print at row, col
+	- handle invalid rol, col
+	- handle (col >= 80) || (row >= 25)
+- handle \n newline
+How to get offset, row, col:
+```c
+int get_offset(int col, int row) { return 2 * (row * MAX_COLS + col); }
+int get_offset_row(int offset) { return offset / (2 * MAX_COLS); }
+int get_offset_col(int offset) { return (offset - (get_offset_row(offset)*2*MAX_COLS))/2; }
+```
