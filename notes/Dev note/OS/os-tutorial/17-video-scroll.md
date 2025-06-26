@@ -22,3 +22,9 @@ in `screen.c::print_char`
       offset -= 2 * MAX_COLS;
    }
 ```
+We override the old data by the data next to it, i.e, 
+- `row 1 → row 0`
+- `row 2 → row 1`
+- ...
+- `row 24 → row 23`
+and leave a blank like
