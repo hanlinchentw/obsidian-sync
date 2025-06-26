@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev note/OS/os-tutorial/16-video-driver.md",
+                "file": "Dev note/OS/os-tutorial/15-video-ports.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16-video-driver"
+              "title": "15-video-ports"
             }
           },
           {
@@ -298,8 +298,8 @@
   },
   "active": "d35a0febc134f89f",
   "lastOpenFiles": [
-    "Dev note/OS/os-tutorial/15-video-ports.md",
     "Dev note/OS/os-tutorial/16-video-driver.md",
+    "Dev note/OS/os-tutorial/15-video-ports.md",
     "Dev note/OS/os-tutorial/milestone - 1.md",
     "Dev note/OS/os-tutorial/13-kernel-barebones.md",
     "Dev note/OS/os-tutorial/10-32bit-enter.md",
