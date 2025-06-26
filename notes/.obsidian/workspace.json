@@ -4,24 +4,151 @@
     "type": "split",
     "children": [
       {
-        "id": "37a0c1915c13c30f",
+        "id": "413329124c2e4126",
         "type": "tabs",
         "children": [
           {
-            "id": "577aae5252a4276d",
+            "id": "4a7006d61a715a1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/139. Word Break.md",
+                "file": "Dev note/OS/os-tutorial/08-32bit-print.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "139. Word Break"
+              "title": "08-32bit-print"
+            }
+          },
+          {
+            "id": "a7ac3b1af27019fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/OS/os-tutorial/10-32bit-enter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-32bit-enter"
+            }
+          },
+          {
+            "id": "cc4468d9ae79d568",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/OS/os-tutorial/11-kernel-crosscompiler.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11-kernel-crosscompiler"
+            }
+          },
+          {
+            "id": "4c173670096b84e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/OS/os-tutorial/12-kernel-c.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12-kernel-c"
+            }
+          },
+          {
+            "id": "9bd220c8a1b390bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/OS/os-tutorial/13-kernel-barebones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13-kernel-barebones"
+            }
+          },
+          {
+            "id": "9679b241fd2fa9ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "076ef6922916ad8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/OS/os-tutorial/milestone - 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "milestone - 1"
+            }
+          },
+          {
+            "id": "f9b2b2d355bcdfd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/OS/os-tutorial/15-video-ports.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15-video-ports"
+            }
+          },
+          {
+            "id": "d35a0febc134f89f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/OS/os-tutorial/16-video-driver.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "16-video-driver"
+            }
+          },
+          {
+            "id": "8c396975b116ee6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev note/OS/os-tutorial/08-32bit-print.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "08-32bit-print"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -166,52 +293,51 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "577aae5252a4276d",
+  "active": "d35a0febc134f89f",
   "lastOpenFiles": [
     "Dev note/OS/os-tutorial/15-video-ports.md",
-    "Untitled.md",
+    "Dev note/OS/os-tutorial/16-video-driver.md",
     "Dev note/OS/os-tutorial/milestone - 1.md",
     "Dev note/OS/os-tutorial/13-kernel-barebones.md",
+    "Dev note/OS/os-tutorial/10-32bit-enter.md",
+    "Untitled.md",
     "Dev note/OS/os-tutorial/12-kernel-c.md",
     "Dev note/OS/os-tutorial/11-kernel-crosscompiler.md",
-    "Dev note/OS/os-tutorial/10-32bit-enter.md",
+    "Dev note/OS/os-tutorial/GCC Cross-Compiler.md",
     "Dev note/OS/os-tutorial/09-32bit-gdt.md",
     "Dev note/OS/os-tutorial/08-32bit-print.md",
+    "Dev note/OS/os-tutorial/01-bootsector-barebones.md",
+    "Dev note/OS/os-tutorial/03-bootsector-memory.md",
+    "conflict-files-obsidian-git.md",
+    "Leetcode/USA-first/78. Subsets.md",
+    "Leetcode/USA-first/77. Combinations.md",
+    "Leetcode/USA-first/698. Partition to K Equal Sum Subsets.md",
+    "Leetcode/USA-first/46. Permutations.md",
+    "Leetcode/USA-first/39. Combination Sum.md",
     "Leetcode/USA-first/139. Word Break.md",
     "Dev note/OS/os-tutorial/07-bootsector-disk.md",
     "Dev note/OS/os-tutorial/06-bootsector-segmentation.md",
     "Dev note/OS/os-tutorial/05-bootsector-functions-strings.md",
-    "Dev note/OS/os-tutorial/03-bootsector-memory.md",
     "Dev note/OS/os-tutorial/04-bootsector-stack.md",
-    "Leetcode/USA-first/698. Partition to K Equal Sum Subsets.md",
-    "Leetcode/USA-first/77. Combinations.md",
-    "Leetcode/USA-first/46. Permutations.md",
-    "Leetcode/Activity.md",
-    "Leetcode/USA-first/78. Subsets.md",
-    "Leetcode/USA-first/39. Combination Sum.md",
-    "Leetcode/USA-first/17. Letter Combinations of a Phone Number.md",
-    "Dev note/OS/os-tutorial/README.md",
-    "Dev note/OS/os-tutorial/02-bootsector-print.md",
-    "Dev note/OS/os-tutorial/Assets/Pasted image 20250620184206.png",
-    "Dev note/OS/os-tutorial/Assets/01-boot.png",
     "Dev note/OS/os-tutorial/Assets/截圖 2025-06-20 晚上7.06.42.png",
+    "Dev note/OS/os-tutorial/Assets/Pasted image 20250620184206.png",
+    "Dev note/OS/os-tutorial/02-bootsector-print.md",
     "Dev note/OS/os-tutorial/Assets/截圖 2025-06-20 下午6.07.19.png",
+    "Dev note/OS/os-tutorial/Assets/01-boot.png",
     "Dev note/OS/os-tutorial/Assets",
-    "Dev note/OS/os-tutorial/01-bootsector-barebones.md",
+    "Dev note/OS/os-tutorial/README.md",
     "Dev note/OS/os-tutorial",
-    "Leetcode/USA-first/131. Palindrome Partitioning.md",
     "Dev note/OS",
+    "Untitled.canvas",
     "Daily",
-    "Dev note/iOS/Test Automation",
     "Dev note/iOS/SwiftUI/Assets/截圖 2025-06-12 下午6.16.39.png",
+    "Dev note/iOS/Test Automation",
     "Dev note/iOS/SwiftUI/Assets",
     "Dev note/iOS/SwiftUI",
     "Resume.html",
-    "Untitled.canvas",
     "Leetcode/USA-first/D3 (3.29)/20 Valid Parentheses 1c56870d0f2b802f8f79ed7d489679f7/Screenshot_2025-03-29_at_5.28.49_PM.png",
     "Leetcode/USA-first/D27 (5.1)",
     "Leetcode/USA-first",
