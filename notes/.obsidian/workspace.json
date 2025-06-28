@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/USA-first/72. Edit Distance.md",
+                "file": "Leetcode/USA-first/377. Combination Sum IV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "72. Edit Distance"
+              "title": "377. Combination Sum IV"
             }
           }
         ]
@@ -172,8 +172,9 @@
   },
   "active": "577aae5252a4276d",
   "lastOpenFiles": [
-    "Dev note/OS/os-tutorial/18-interrupts.md",
     "Leetcode/USA-first/72. Edit Distance.md",
+    "Leetcode/USA-first/377. Combination Sum IV.md",
+    "Dev note/OS/os-tutorial/18-interrupts.md",
     "Leetcode/USA-first/TEMPLATE.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -197,7 +198,6 @@
     "Leetcode/USA-first/77. Combinations.md",
     "Leetcode/USA-first/46. Permutations.md",
     "Leetcode/Activity.md",
-    "Leetcode/USA-first/78. Subsets.md",
     "Dev note/OS/os-tutorial/Assets/Pasted image 20250620184206.png",
     "Dev note/OS/os-tutorial/Assets/01-boot.png",
     "Dev note/OS/os-tutorial/Assets/截圖 2025-06-20 晚上7.06.42.png",
