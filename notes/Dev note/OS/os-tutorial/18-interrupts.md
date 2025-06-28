@@ -85,3 +85,49 @@ Compiler 在優化程式時，會**假設變數不會改變**，除非它看到�
 `volatile` **不是用來保證執行緒安全的**，它只保證每次都從記憶體真正讀取或寫入，而不是用暫存變數。
 
 
+### IDT (Interrup descriptor table)
+
+
+IDT 是一個特定於 **IA-32 和 x86-64 架構** 的二進位資料結構。
+
+當電腦系統進入 **保護模式（Protected Mode）或長模式（Long Mode）** 時，CPU 不再使用傳統的中斷向量表（IVT），而是透過 IDT 來處理中斷。
+
+這張表告訴 CPU 當發生中斷時，應該執行哪一段「中斷服務程式（ISR, Interrupt Service Routine）」。每一個中斷向量對應到 IDT 裡的一個項目。
+
+IDT 的結構跟「全域描述表（GDT）」有點類似，不過它是專門用來處理中斷的。
+
+在 IDT 中可以有三種 descriptor：**task-gate descriptor**、**interrupt-gate descriptor**、和 **trap-gate descriptor**
+
+<span style="color:red">Before you implement the IDT, make sure you have a working GDT.</span> 
+****
+Structure in IA-32
+```c
+struct InterruptDescriptor32 {
+   uint16_t offset_1;        // offset bits 0..15
+   uint16_t selector;        // a code segment selector in GDT or LDT
+   uint8_t  zero;            // unused, set to 0
+   uint8_t  type_attributes; // gate type, dpl, and p fields
+   uint16_t offset_2;        // offset bits 16..31
+};
+```
+
+Example _type_attributes_ values that people are likely to use (assuming DPL is 0):
+- 32-bit **Interrupt Gate: 0x8E** (p=1, dpl=0b00, type=0b1110 => type_attributes=0b1000_1110=**0x8E**)
+- 32-bit **Trap Gate: 0x8F** (p=1, dpl=0b00, type=0b1111 => type_attributes=1000_1111b=**0x8F**)
+- **Task Gate: 0x85** (p=1, dpl=0b00, type=0b0101 => type_attributes=0b1000_0101=**0x85**)
+
+Structure in x86_64
+```c
+struct InterruptDescriptor64 {
+   uint16_t offset_1;        // offset bits 0..15
+   uint16_t selector;        // a code segment selector in GDT or LDT
+   uint8_t  ist;             // bits 0..2 holds Interrupt Stack Table offset, rest of bits zero.
+   uint8_t  type_attributes; // gate type, dpl, and p fields
+   uint16_t offset_2;        // offset bits 16..31
+   uint32_t offset_3;        // offset bits 32..63
+   uint32_t zero;            // reserved
+};
+```
+Example _type_attributes_ values that people are likely to use (assuming DPL is 0):
+- 64-bit **Interrupt Gate: 0x8E** (p=1, dpl=0b00, type=0b1110 => type_attributes=0b1000_1110=**0x8E**)
+- 64-bit **Trap Gate: 0x8F** (p=1, dpl=0b00, type=0b1111 => type_attributes=1000_1111b=**0x8F**)
