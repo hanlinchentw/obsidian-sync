@@ -1,9 +1,0 @@
-### Thinking：
-
-### Solution:
-
-```cpp
-
-```
-
-review:
