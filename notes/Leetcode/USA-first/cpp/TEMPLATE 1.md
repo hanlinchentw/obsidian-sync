@@ -1,4 +1,4 @@
-### Thinking：
+### stoneGameII
 
 ### Solution:
 
