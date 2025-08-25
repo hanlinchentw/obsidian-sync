@@ -20,3 +20,7 @@ What Customers want:
 Threats
 -> Internet service provider (verizon, AT&T, Starlink,...)
 -> Danger to my (Netflix) service
+
+Netflix is missing **Live content** (sport events)
+
+What is the strategy to accommodate above things?
