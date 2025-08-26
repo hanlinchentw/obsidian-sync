@@ -13,7 +13,7 @@ Float's:
 ### Great Reality #2
 You've gotten to know assembly
 ### Great Reality #3
-Random Access Memory (RAM) is an unphysical abstraction
+| Random Access Memory (RAM) is an unphysical abstraction
 - Memory is not unbounded
 	- Must be allocated and managed
 - Memory reference bugs especially pernicious
@@ -25,7 +25,7 @@ C and C++ do not provide any memory protection
 - invalid pointer values
 - Abuses of malloc/free
 ### Great Reality #4
-performance than asymptotic complexity `O(n)`
+| performance than asymptotic complexity `O(n)`
 - Constant factors matter too
 - And even exact op count does not predict performance
 - Must understand system to optimize performance
@@ -35,14 +35,19 @@ for (int i = 0; i < 2048; i++) {
 		dst[i][j] = src[i][j];
 	}
 }
-=> actual running time = 4 ms
+=> 4 ms
 for (int j = 0; j < 2048; j++) {
 	for (int i = 0; i < 2048; i++) {
 		dst[i][j] = src[i][j];
 	}
 }
-=> 8
+=> 81 ms
 ```
+### Great Reality #5
+| Computers do more than execute programs
+- They need to get data in and out
+- They communicate with each other
+
 
 
 
