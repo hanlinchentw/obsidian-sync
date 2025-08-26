@@ -16,7 +16,7 @@ This paper examines the successes and tradeoffs of the Internet's original desig
         - This allows very different kinds of transport protocols to coexist:
 	        - TCP: reliable, connection orientated
 	        - UDP: lightweight, connectionless
-	        - QUIC[2].: modern, encrypted, low-latency transport
+	        - <cite>[QUIC][2]</cite>: modern, encrypted, low-latency transport
 2. **Limitations in Resource Management and Accountability**
     - Datagram is stateless, making it difficult to trace usage or manage resources effectively.
 3. **Flow Concept**
