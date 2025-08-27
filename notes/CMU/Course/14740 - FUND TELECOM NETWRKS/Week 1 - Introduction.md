@@ -29,8 +29,8 @@ Paper reviews consists of:
 
 First paper review is due <span style="color:red">Wednesday, Aug 27</span>.
 
-
 Network structure
 Edge (hosts)
 Core (Router)
+
 
