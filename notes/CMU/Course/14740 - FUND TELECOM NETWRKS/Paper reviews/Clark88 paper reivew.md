@@ -1,10 +1,9 @@
+Title: THE DESIGN PHILOSOPHY OF THE DARPA INTERNET PROTOCOLS
 Author: Han-Lin (Leo) Chen
 Andrew ID: leoc3
 Date: Aug 25 2025
-### Title: THE DESIGN PHILOSOPHY OF THE DARPA INTERNET PROTOCOLS
-
 ### Summary
-This paper examines the successes and tradeoffs of the Internet's original design priorities. The datagram model ensured the Internet's core goals of survivability and flexibility, enabling widespread adoption in both military and commercial settings. However, the stateless nature of datagrams makes it difficult to manage resources and ensure accountability. To address these problems, the author proposes the concept of a _flow_—a way to group datagrams into sequences—allowing gateways to maintain "soft state." This idea provides both resilience and improved service management.
+This paper examines the successes and tradeoffs of the Internet's original design priorities. The datagram model ensured the core goals of survivability and flexibility, enabling widespread adoption in both military and commercial settings. However, the stateless nature of datagrams makes it difficult to manage resources and ensure accountability. To address these problems, the author proposes the flow concept of a _flow_—a way to group datagrams into sequences—allowing gateways to maintain "soft state." This idea provides both resilience and improved service management.
 
 ### Valid Points / Justifications
 
