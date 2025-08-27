@@ -1,7 +1,7 @@
-Title: THE DESIGN PHILOSOPHY OF THE DARPA INTERNET PROTOCOLS[^1]
+Title: THE DESIGN PHILOSOPHY OF THE DARPA INTERNET PROTOCOLS[^1] 
 Author: Han-Lin (Leo) Chen
 Andrew ID: leoc3
-Date: Aug 25 2025
+Date: Aug 27 2025
 ### Summary
 This paper reviews Internet design tradeoffs: datagrams enable survivability and flexibility but hinder resources management and accountability. The proposed flow model balances resilience and service management.
 ### The most important points
@@ -15,7 +15,7 @@ This paper reviews Internet design tradeoffs: datagrams enable survivability and
 	        - UDP: lightweight, connectionless
 	        - QUIC[^2]: modern, encrypted, low-latency transport
 2. **Limitations in Resource Management and Accountability**
-    - Datagram is stateless, making it difficult to trace usage or manage resources effectively.
+    - Datagram is stateless in the networks, making it difficult to trace usage or manage resources effectively.
 3. **Flow Concept**
 	- Flows preserve a lightweight form of state, called soft state, allowing gateways to track and manage data sequences without sacrificing resilience.
 ### Questions/Comments
