@@ -3,7 +3,7 @@
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-default-light",
   "darkScheme": "minimal-atom-dark",
-  "editorFont": "",
+  "editorFont": "Times New Roman",
   "lineHeight": 1.5,
   "lineWidth": 40,
   "lineWidthWide": 50,
