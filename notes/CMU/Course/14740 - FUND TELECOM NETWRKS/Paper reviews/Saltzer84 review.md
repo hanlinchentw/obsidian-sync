@@ -1,5 +1,9 @@
-Title: End-To-End Arguments in System Design
-Author: Han-Lin (Leo) Chen                                                             
-Andrew ID: leoc3      
+# End-To-End Arguments in System Design
 
-Ci
+#### Summary:
+
+#### Important points
+
+#### Comments/Questions
+
+#### Citation
