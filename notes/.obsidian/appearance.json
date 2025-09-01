@@ -1,5 +1,6 @@
 {
   "textFontFamily": "Times New Roman,Fira Code",
   "baseFontSize": 13,
-  "monospaceFontFamily": "Fira Code"
+  "monospaceFontFamily": "Fira Code",
+  "theme": "obsidian"
 }
