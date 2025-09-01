@@ -3,20 +3,25 @@
 #### Summary:
 The end-to-end argument, a principle for placing functions in layered systems, shows that correctness can be ensured by end-to-end checks and retries, while low-level implementations serve mainly for performance enhancements.
 #### Important points
-1. Correctness requires end-to-end checks
-	- Functions like reliability, security, and duplicate suppression cannot be fully guaranteed by lower layers (e.g., the network).
-	- Only the application (endpoints) knows the intended outcome, so end-to-end validation (checksums, retries, acknowledgments) is essential.
-	- _Justification_: 
-2. Low-level mechanisms are for performance, not correctness
-	- Network or OS features (e.g., hop-by-hop checksums, retries) can **reduce error rates** and improve efficiency.
-	- But they don’t eliminate the need for end-to-end mechanisms.
-	- Their role is **performance optimization**, not correctness.
-	- _Justification_: 
-3. The end-to-end argument guides system design
-	- It acts like Occam’s Razor: don’t push unnecessary functions into lower layers.
-	- Helps decide where to place functionality in layered systems (e.g., communication protocols, file systems, operating systems). 
-	- Encourages keeping lower layers simple, while applications enforce correctness.
-	- _Justification_: 
+1. Low-level mechanisms (like checksums, retries, error detection) cannot guarantee correctness, but they can improve performance by reducing error frequency. True correctness requires end-to-end checks and retries at the application level.
+	_Justification_: This point is important 
+		- The file transfer example shows that many threats exist at different layers (disk, memory, software, network, crashes).
+		-  Low-level mechanisms help but cannot cover all threats. An **end-to-end checksum + retry** provides correctness at minimal cost.
+		- Since low-level systems are shared across applications, forcing reliability features there can burden apps that don’t need them.
+		- This highlights the trade-off: low-level functions should be added only if they clearly improve **performance**, not correctness.
+2. The correct placement of functions varies with the application. What’s useful for one case (e.g., live conversation) may harm another (e.g., recorded messages).
+	_Justification_: 
+	-  Prevents misapplication of the principle.
+	- Shows that the argument is a guideline, not a rigid rule.
+	- Forces designers to consider application semantics (e.g., latency vs. accuracy) rather than blindly enforcing reliability at one layer.
+	- Encourages nuanced engineering decisions that fit the actual end requirements.
+3. History shows repeated rediscovery — it’s a general systems principle
+	The end-to-end argument keeps reappearing in different domains: networking, file storage, database commits, banking audits, airline reservations, tape backup, OS kernels, even RISC architecture.
+	_Justification_: 
+	- Demonstrates the generality of the principle: correctness belongs at the endpoints in any layered system.
+	- Historical failures (like corrupted tape systems or network gateways) show the cost of ignoring it.
+	- Provides a unifying way to think across fields — whether networking, operating systems, or storage, the same principle applies.
+	- Reinforces that it’s not just theory: it solves practical, recurring problems in real-world systems.
 #### Comments/Questions
 #### Citation
 	
