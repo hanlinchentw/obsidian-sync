@@ -8,8 +8,55 @@ Given three sorted arrays, arr1, arr2, and arr3, return a new array with the ele
 > Example: arr1 = [2, 3, 3, 4, 5, 7], arr2 = [3, 3, 9], arr3 = [3, 3, 9]
 > Output: [2, 3, 4, 5, 7, 9]
 
+Hint 1: Break down the problem
+How can merging three arrays be simplified by using a helper function that merges two arrays at a time?
+Can you reuse a function for merging two sorted arrays and apply it twice to handle three arrays?
 
+Hint 2: Merge two arrays approach
+When merging two sorted arrays, how do you track the current position in each array (e.g., pointers or indices)?
+How do you decide which element to add next to the result to maintain sorting?
 
+Hint 3: Remove duplicates while merging
+How can you ensure no duplicate values are added to the result during merging?
+Would using a set to track already added elements be helpful?
+How can you combine this with the merging process efficiently?
+
+Solution:
+```python
+def mergeThree(arr1, arr2, arr3):
+    return mergeTwo(mergeTwo(arr1, arr2), arr3)
+
+def mergeTwo(arr1, arr2):
+    seen = set()
+    p1 = p2 = 0
+    result = []
+
+    while p1 < len(arr1) and p2 < len(arr2):
+        if arr1[p1] < arr2[p2]:
+            if arr1[p1] not in seen:
+                result.append(arr1[p1])
+                seen.add(arr1[p1])
+            p1 += 1
+        else:
+            if arr2[p2] not in seen:
+                result.append(arr2[p2])
+                seen.add(arr2[p2])
+            p2 += 1
+
+    while p1 < len(arr1):
+        if arr1[p1] not in seen:
+            result.append(arr1[p1])
+            seen.add(arr1[p1])
+        p1 += 1
+
+    while p2 < len(arr2):
+        if arr2[p2] not in seen:
+            result.append(arr2[p2])
+            seen.add(arr2[p2])
+        p2 += 1
+
+    return result
+```
 ### 27.2 Smaller prefixes
 Given an array of integers, arr, where the length, n, is even, return whether the following condition holds for every k in the range 
 `1 <= k <= n/2`: "the sum of the first k elements is smaller than the sum of the first 2k elements." if this condition is false for any k in the range, return false.
