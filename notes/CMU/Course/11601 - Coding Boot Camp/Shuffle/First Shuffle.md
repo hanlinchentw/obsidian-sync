@@ -8,6 +8,7 @@ Given three sorted arrays, arr1, arr2, and arr3, return a new array with the ele
 > Example: arr1 = [2, 3, 3, 4, 5, 7], arr2 = [3, 3, 9], arr3 = [3, 3, 9]
 > Output: [2, 3, 4, 5, 7, 9]
 
+
 Hint 1: Break down the problem
 How can merging three arrays be simplified by using a helper function that merges two arrays at a time?
 Can you reuse a function for merging two sorted arrays and apply it twice to handle three arrays?
